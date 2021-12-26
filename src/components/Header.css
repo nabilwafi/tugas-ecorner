@@ -1,0 +1,62 @@
+
+/* CSS Header */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1.5rem 3rem;
+    align-items: center;
+    width: 100%;
+    min-width: 1200px;
+    height: 4.175rem;
+}
+
+.header-home {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.header-home-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #eea302;
+    margin-right: 10px;
+}
+
+.header-home-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.header-home-profession {
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.header-navigation {
+    justify-self: flex-end;
+}
+
+.header-navbar {
+    display: flex;
+}
+
+.header-nav {
+    margin-right: 1rem;
+    border-right: .5px solid black;
+    padding-right: 1rem;
+}
+
+.header-nav:nth-last-child(1) {
+    border-right: 0;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* End Of Header */

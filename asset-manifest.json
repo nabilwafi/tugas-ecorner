@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tugas-ecorner/static/css/main.3051de55.css",
-    "main.js": "/tugas-ecorner/static/js/main.121d0b56.js",
+    "main.js": "/tugas-ecorner/static/js/main.2cfc7d23.js",
     "static/js/787.c2238e40.chunk.js": "/tugas-ecorner/static/js/787.c2238e40.chunk.js",
     "static/media/profile.jfif": "/tugas-ecorner/static/media/profile.745b3936f92bbcade8fd.jfif",
     "index.html": "/tugas-ecorner/index.html",
     "main.3051de55.css.map": "/tugas-ecorner/static/css/main.3051de55.css.map",
-    "main.121d0b56.js.map": "/tugas-ecorner/static/js/main.121d0b56.js.map",
+    "main.2cfc7d23.js.map": "/tugas-ecorner/static/js/main.2cfc7d23.js.map",
     "787.c2238e40.chunk.js.map": "/tugas-ecorner/static/js/787.c2238e40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3051de55.css",
-    "static/js/main.121d0b56.js"
+    "static/js/main.2cfc7d23.js"
   ]
 }

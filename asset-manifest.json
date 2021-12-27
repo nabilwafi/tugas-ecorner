@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tugas-ecorner/static/css/main.3051de55.css",
-    "main.js": "/tugas-ecorner/static/js/main.301b261e.js",
+    "main.css": "/tugas-ecorner/static/css/main.59280d7a.css",
+    "main.js": "/tugas-ecorner/static/js/main.dd3ec252.js",
     "static/js/787.c2238e40.chunk.js": "/tugas-ecorner/static/js/787.c2238e40.chunk.js",
-    "static/media/profile.jfif": "/tugas-ecorner/static/media/profile.745b3936f92bbcade8fd.jfif",
+    "static/media/profile.jpg": "/tugas-ecorner/static/media/profile.77e2ac93cf1362e70e4c.jpg",
     "index.html": "/tugas-ecorner/index.html",
-    "main.3051de55.css.map": "/tugas-ecorner/static/css/main.3051de55.css.map",
-    "main.301b261e.js.map": "/tugas-ecorner/static/js/main.301b261e.js.map",
+    "main.59280d7a.css.map": "/tugas-ecorner/static/css/main.59280d7a.css.map",
+    "main.dd3ec252.js.map": "/tugas-ecorner/static/js/main.dd3ec252.js.map",
     "787.c2238e40.chunk.js.map": "/tugas-ecorner/static/js/787.c2238e40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3051de55.css",
-    "static/js/main.301b261e.js"
+    "static/css/main.59280d7a.css",
+    "static/js/main.dd3ec252.js"
   ]
 }

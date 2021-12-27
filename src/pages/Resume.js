@@ -12,5 +12,5 @@ const Resume = () => {
         </React.Fragment>
     );
 }
- 
+
 export default Resume;

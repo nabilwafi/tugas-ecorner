@@ -1,26 +1,27 @@
 import React from 'react';
-import '../assets/css/Style.css';
-import './BodyHome.css';
-import profile from '../assets/image/profile.jfif';
+import { Link } from 'react-router-dom';
+import profile from '../assets/image/profile.jpg';
 
 const BodyHome = () => {
     return (
-        <div className='container'>
-            <img src={profile} className='profile-img' />
+        <div className='main-layout'>
+            <div className='home body-grid'>
+                <img src={profile} className='home-img' />
 
-            <div className='text-box'>
-                <h1 className='text-box-title'>Hello</h1>
-                <h3 className='text-box-subtitle'>A Bit About Me</h3>
-                <p className='text-box-description'>
-                    I'm a paragraph. Click here to add your own text and edit me. I'm great place for you to tell a story and let your users know a little more about you.
-                </p>
+                <div className='home-text'>
+                    <h1 className='home-title home-margin'>Hello</h1>
+                    <h3 className='home-subtitle home-margin'>A Bit About Me</h3>
+                    <p className='home-description home-margin'>
+                        I am a student of the Indonesian Computer University, majoring in Information Systems, and now I am studying programming, and most importantly I like sushi and donuts
+                    </p>
 
-                <div className='text-box-button-box'>
-                    <div className='btn resume'>
-                        <a href='/resume' className='btn-link'>Resume</a>
-                    </div>
-                    <div className='btn contact'>
-                        <a href='/contact' className='btn-link'>Contact</a>
+                    <div className='home-buttons'>
+                        <Link to="/resume" className='home-btn red'>
+                            <p className='btn-link'>Resume</p>
+                        </Link>
+                        <Link to="/contact" className='home-btn blue'>
+                            <p className='btn-link'>Contact</p>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,27 +1,31 @@
 import React from 'react';
-import '../assets/css/Style.css';
-import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
     return (
         <div className='header'>
-            <Link to='/' className='header-home'>
-                <div className='header-home-circle'></div>
-                <h1 className='header-home-name'>Nabil Wafi</h1>
-                <p className='header-home-profession'>Programmer</p>
-            </Link>
+            <nav className='nav body-grid'>
+                <div className='nav-flex'>
+                    <Link to='/' className='nav-flex nav-logo'>
+                        <div className='nav-circle'></div>
+                        <h5 className='nav-name'>Nabil Wafi</h5>
+                    </Link>
 
-            <div className='header-navigation'>
-                <ul className='header-navbar'>
-                    <li className='header-nav'>
-                        <Link to='/resume' className='header-nav-link'>Resume</Link>
-                    </li>
-                    <li className='header-nav'>
-                        <Link to='/contact' className='header-nav-link'>Contact</Link>
-                    </li>
-                </ul>
-            </div>
+                    <p className='nav-profession'>Programmer & Designer</p>
+                </div>
+
+                <div className='nav-menu' id='nav-menu'>
+                    <ul className='nav-list'>
+                        <li className='nav-item'>
+                            <Link to='/resume' className='nav-link'>Resume</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/contact' className='nav-link'>Contact</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     );
 }
